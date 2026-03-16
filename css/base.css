@@ -320,6 +320,10 @@ body #cdawrap {
 	grid-area: intro;
 }
 
+.content--intro .content__img {
+	border-radius: 1rem;
+}
+
 .content__img-wrap {
 	grid-area: layout;
 }
