@@ -390,6 +390,20 @@ body #cdawrap {
 	opacity: 0;
 }
 
+.content__img-number {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	z-index: 110;
+	font-family: var(--font-display);
+	font-size: clamp(1.5rem, 5vw, 4rem);
+	line-height: 1;
+	letter-spacing: 0.08em;
+	color: var(--color-title);
+	text-shadow: 0 0 18px rgba(11, 8, 38, 0.7);
+	pointer-events: none;
+}
+
 .content__text {
 	font-family: var(--font-display);
 	position: relative;
