@@ -202,6 +202,7 @@ body #cdawrap {
     margin: 0;
     display: grid;
     align-self: start;
+    transform: translateY(-35%);
     position: relative;
     z-index: 100;
 }
