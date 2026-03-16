@@ -208,7 +208,7 @@ body #cdawrap {
 .intro__title-image {
     display: block;
     width: min(72vw, 32rem);
-    max-height: 60vh;
+    height: auto;
     object-fit: contain;
 }
 
