@@ -207,7 +207,7 @@ body #cdawrap {
 
 .intro__logo {
     display: block;
-    width: min(90vw, 65rem);
+    width: min(90vw, 50rem);
     height: auto;
 }
 
