@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6d6af"/>
+      <stop offset="100%" stop-color="#8a5f3b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="800" fill="url(#bg)"/>
+  <g fill="#fff8ef" opacity=".25">
+    <circle cx="300" cy="170" r="110"/>
+    <circle cx="1320" cy="610" r="140"/>
+  </g>
+  <g transform="translate(480 130)">
+    <circle cx="320" cy="200" r="150" fill="#fff8ef"/>
+    <ellipse cx="210" cy="78" rx="42" ry="100" transform="rotate(-22 210 78)" fill="#fff8ef"/>
+    <ellipse cx="430" cy="78" rx="42" ry="100" transform="rotate(22 430 78)" fill="#fff8ef"/>
+    <path d="M130 430c80-80 380-80 460 0" fill="none" stroke="#fff8ef" stroke-linecap="round" stroke-width="26"/>
+    <circle cx="270" cy="190" r="12" fill="#132a25"/>
+    <circle cx="370" cy="190" r="12" fill="#132a25"/>
+    <ellipse cx="320" cy="245" rx="28" ry="22" fill="#132a25"/>
+  </g>
+  <g fill="none" stroke="#132a25" stroke-linecap="round" stroke-width="18">
+    <path d="M1120 210l130 130"/>
+    <path d="M1250 210l-130 130"/>
+    <circle cx="1095" cy="185" r="36"/>
+    <circle cx="1275" cy="185" r="36"/>
+  </g>
+</svg>
