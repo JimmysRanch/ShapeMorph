@@ -205,6 +205,13 @@ body #cdawrap {
     z-index: 100;
 }
 
+.intro__title-image {
+    display: block;
+    width: min(72vw, 32rem);
+    height: auto;
+    object-fit: contain;
+}
+
 .intro__title-pre {
     font-size: clamp(2rem,20vw,10rem);
     color: var(--color-title);
