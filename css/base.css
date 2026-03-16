@@ -201,6 +201,7 @@ body #cdawrap {
     place-items: center;
     margin: 0;
     display: grid;
+    align-self: start;
     position: relative;
     z-index: 100;
 }
