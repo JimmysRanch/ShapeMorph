@@ -205,25 +205,10 @@ body #cdawrap {
     z-index: 100;
 }
 
-.intro__title-pre {
-    font-size: clamp(2rem,20vw,10rem);
-    color: var(--color-title);
-    font-weight: 700;
-    text-transform: none;
-    letter-spacing: 0.02em;
-    font-family: var(--font-display);
-}
-
-.intro__title-pre::first-letter {
-	font-feature-settings: normal;
-}
-
-.intro__title-sub {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    letter-spacing: 0.08rem;
-    text-transform: none;
-    font-family: var(--font-display);
+.intro__logo {
+    display: block;
+    width: min(90vw, 50rem);
+    height: auto;
 }
 
 .intro__info {
